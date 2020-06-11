@@ -1,0 +1,12 @@
+使用Tesseract进行OCR识别：
+使用如下命令安装python包
+pip install pillow
+pip install pytesseract
+
+使用百度在线语音合成接口baidu TTS，将文字合成为语音：
+pip install baidu-aip
+
+yum-config-manager --add-repo https://download.opensuse.org/repositories/home:/Alexander_Pozdnyakov/CentOS_7/
+sudo rpm --import https://build.opensuse.org/projects/home:Alexander_Pozdnyakov/public_key
+yum update
+yum install tesseract 
