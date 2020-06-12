@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: zhuping,misszhuping@sina.com
 from hmmlearn.hmm import GaussianHMM
 import datetime
 import numpy as np
